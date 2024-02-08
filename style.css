@@ -6,14 +6,14 @@
 }
 .container{
     height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     padding: 1px;
 }
 .app{
     display: flex;
     flex-direction: column;
     width: 600px;
-    background: #fff;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     border-radius: 10px;
     padding: 30px;
     margin: 10% auto 0;
@@ -26,13 +26,13 @@
     margin-bottom: 20px;
 }
 .header h1{
-    color: #002765;
+    color: #0a2351;
     margin-right: 10px;
 }
 .header h1 s{
     font-size: 23px;
     text-decoration-thickness: 4px;
-    text-decoration-color: #ff5945;
+    text-decoration-color: #58111A;
 }
 .header img{
     width: 40px;
@@ -50,8 +50,8 @@
     outline: none;
 }
 .main button{
-    background: #ff5945;
-    color: #fff;
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    color: #0a2351;
     border: none;
     padding: 18px 50px;
     margin-left: -50px;
@@ -64,6 +64,7 @@ ul{
     flex-direction: column;
 }
 ul li{
+    color: #0a2351;
     padding: 13px;
     list-style: none;
     position: relative;
@@ -76,19 +77,20 @@ ul li::before{
     content: "";
     background-image: url("img/unchecked.png");
     background-size: cover;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 29px;
     top: 8px;
     left: -26px;
 }
 .checked::before{
-    background-image: url("img/checked.png")
+    background-image: url("img/accept.png");
 }
 .checked{
     text-decoration: line-through;
     color: #555555;
 }
 span{
+    color: #58111A;
     position: absolute;
     top: 8px;
     right: 0;

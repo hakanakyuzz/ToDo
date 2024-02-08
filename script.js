@@ -4,14 +4,14 @@ const ul = document.querySelector("ul")
 
 button.addEventListener("click", () => {
     if (input.value === "")
-        alert("Empty")
+        alert("This note is empty!")
     else{
         let li = document.createElement("li")
         li.innerHTML = input.value
         ul.appendChild(li)
 
         let span = document.createElement("span")
-        span.innerHTML = "X"
+        span.innerHTML = "&#x2715;"
         li.appendChild(span)
     }
     input.value = ""
