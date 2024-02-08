@@ -5,12 +5,9 @@
     font-family: sans-serif;
 }
 .container{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding-top: 200px;
+    height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 1px;
 }
 .app{
     display: flex;
@@ -19,7 +16,7 @@
     background: #fff;
     border-radius: 10px;
     padding: 30px;
-    margin-bottom: 200px;
+    margin: 10% auto 0;
 }
 .header{
     display: flex;
@@ -103,4 +100,24 @@ span{
 }
 span:hover{
     background: #edeef0;
+}
+@media (max-width: 600px) {
+    .app {
+        width: 460px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .header{
+        margin-bottom: 9px;
+    }
+    .main button{
+        padding: 12px 31px;
+        font-size: 9px;
+    }
+    .main input{
+        width: 90%;
+        padding: 12px;
+        font-size: 10px;
+    }
 }
