@@ -43,20 +43,27 @@
 }
 .main input{
     width: 85%;
-    padding: 18px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-left: 15px;
     border: none;
     background: #edeef0;
     border-radius: 30px;
     outline: none;
+
 }
 .main button{
     background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
     color: #0a2351;
     border: none;
-    padding: 18px 50px;
-    margin-left: -50px;
+    padding: 16px 46px;
+    margin-left: -54px;
     margin-bottom: 30px;
     border-radius: 40px;
+    font-size: 18px;
+}
+.main button:hover{
+    background-image: linear-gradient(to top, #df89b5 0%, #d6e5fa 100%);
     cursor: pointer;
 }
 ul{
@@ -75,7 +82,7 @@ ul li{
 ul li::before{
     position: absolute;
     content: "";
-    background-image: url("img/unchecked.png");
+    background-image: url("img/unchekced.png");
     background-size: cover;
     width: 30px;
     height: 29px;
@@ -115,11 +122,23 @@ span:hover{
     }
     .main button{
         padding: 12px 31px;
-        font-size: 9px;
+        font-size: 12px;
+        margin-bottom: 20px;
     }
     .main input{
         width: 90%;
-        padding: 12px;
+        padding-top: 14px;
+        padding-bottom: 13px;
         font-size: 10px;
+    }
+    .header img{
+        width: 30px;
+        height: 30px;
+    }
+    ul li{
+        padding: 10px;
+    }
+    ul li::before{
+        top: 4px;
     }
 }
