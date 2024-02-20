@@ -29,11 +29,6 @@
     color: #0a2351;
     margin-right: 10px;
 }
-.header h1 s{
-    font-size: 23px;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #58111A;
-}
 .header img{
     width: 40px;
     height: 40px;
@@ -50,7 +45,6 @@
     background: #edeef0;
     border-radius: 30px;
     outline: none;
-
 }
 .main button{
     background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
